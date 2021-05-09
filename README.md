@@ -3,4 +3,4 @@
 ### It needs to be improved a lot (in the future)
 
 # Preview
-[![preview.png](https://i.postimg.cc/qvnD6J5F/preview.png)](https://postimg.cc/LJ93rpRk)
+[![preview.png](https://i.postimg.cc/2y717PLQ/preview.png)](https://postimg.cc/BPtZq7gb)
