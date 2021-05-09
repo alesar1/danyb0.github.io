@@ -4,7 +4,7 @@ html, body {
   width: 100%;
   height: 100%;
   display: table;
-  background:#000000;
+  background:#302b2b;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -19,30 +19,57 @@ html, body {
 
 /* Titolo Neon */
 .titolo {
-    display: absolute;
-    text-align: center;
-    vertical-align: top;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    font-family: neon;
-    font-size: 9vw;
-    line-height: 9vw;
-    animation: neon 1s ease infinite;
-    -webkit-animation: neon 1s ease infinite;
-    -moz-animation: neon 1s ease infinite;
-    -ms-animation: neon 1s ease infinite;
-    -o-animation: neon 1s ease infinite;
+  display: absolute;
+  text-align: center;
+  vertical-align: top;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 100%;
+  font-family: neon;
+  font-size: 9vw;
+  line-height: 9vw;
+  animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -ms-animation: neon 1s ease infinite;
+  -o-animation: neon 1s ease infinite;
+}
+
+.desc {
+  display: absolute;
+  text-align: center;
+  vertical-align: top;
+  position: absolute;
+  top: 12rem;
+  left: 0rem;
+  width: 100%;
+  font-size: 2vw;
+  line-height: 2vw;
+  color: #272829;
+  font-style: Italic;
 }
 
 /* Titolo Neon con hover */
 .titolo:hover {
-    animation: neon-hover 1s ease infinite;
-    -webkit-animation: neon-hover 1s ease infinite;
-    -moz-animation: neon-hover 1s ease infinite;
-    -ms-animation: neon-hover 1s ease infinite;
-    -o-animation: neon-hover 1s ease infinite;
+  animation: neon-hover 1s ease infinite;
+  -webkit-animation: neon-hover 1s ease infinite;
+  -moz-animation: neon-hover 1s ease infinite;
+  -ms-animation: neon-hover 1s ease infinite;
+  -o-animation: neon-hover 1s ease infinite;
+}
+
+/* Quando hover su titolo scritta si inclina */
+.titolo:hover + .desc {
+  display: absolute;
+  text-align: center;
+  vertical-align: top;
+  position: absolute;
+  top: 12rem;
+  left: 0rem;
+  width: 100%;
+  font-size: 2vw;
+  line-height: 2vw;
 }
 
 /* Animazione titolo neon di base */
@@ -180,26 +207,11 @@ html, body {
     }
 }
 
-/* Sfondo */
-.sfondo {
-    position: relative;
-    background-image: url("immagini/sfondo_3.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    -moz-filter: blur(8px);
-    -ms-filter: blur(8px);
-    -o-filter: blur(8px);
-}
-
 .container_icons {
   display: absolute;
   text-align: center;
   position: absolute;
-  top: 400px;
+  top: 23rem;
   width: 100%;
 }
 
@@ -207,15 +219,15 @@ html, body {
   position: absolute;
   transform: scale(6);
   color: #1a1a20;
-  left: 650px;
+  left: 36rem;
   transition: transform 0.25s;
 }
 
 .fa-github:hover {
   position: absolute;
   transform: scale(8);
-  color: #606880;
-  left: 650px;
+  color: #1a1a20;
+  left: 36rem;
 }
 
 .fa-instagram {
@@ -235,7 +247,7 @@ html, body {
   position: absolute;
   transform: scale(6);
   color: #0194aa;
-  right: 635px;
+  right: 35rem;
   transition: transform 0.25s;
 }
 
@@ -243,9 +255,20 @@ html, body {
   position: absolute;
   transform: scale(8);
   color: #0fadc5;
-  right: 635px;
+  right: 35rem;
 }
 
-.footer {
-  flex-shrink: 0;
+/* Sfondo */
+.sfondo {
+  position: relative;
+  background-image: url("immagini/stanza.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  -moz-filter: blur(8px);
+  -ms-filter: blur(8px);
+  -o-filter: blur(8px);
 }
