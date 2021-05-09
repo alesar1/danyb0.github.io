@@ -38,15 +38,15 @@ html, body {
 
 .desc {
   display: absolute;
-  text-align: center;
-  vertical-align: top;
+  text-align: left;
+  vertical-align: bottom;
   position: absolute;
-  top: 12rem;
+  bottom: 0.5rem;
   left: 0rem;
   width: 100%;
   font-size: 2vw;
   line-height: 2vw;
-  color: #272829;
+  color: #595c61;
   font-style: Italic;
 }
 
@@ -57,19 +57,6 @@ html, body {
   -moz-animation: neon-hover 1s ease infinite;
   -ms-animation: neon-hover 1s ease infinite;
   -o-animation: neon-hover 1s ease infinite;
-}
-
-/* Quando hover su titolo scritta si inclina */
-.titolo:hover + .desc {
-  display: absolute;
-  text-align: center;
-  vertical-align: top;
-  position: absolute;
-  top: 12rem;
-  left: 0rem;
-  width: 100%;
-  font-size: 2vw;
-  line-height: 2vw;
 }
 
 /* Animazione titolo neon di base */
@@ -211,7 +198,7 @@ html, body {
   display: absolute;
   text-align: center;
   position: absolute;
-  top: 23rem;
+  top: 20rem;
   width: 100%;
 }
 
