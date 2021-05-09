@@ -1,4 +1,4 @@
-# My bad website
+# My bad static website
 
 ### It needs to be improved a lot (in the future)
 
