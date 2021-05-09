@@ -9,6 +9,8 @@ html, body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 /* Font */
@@ -263,10 +265,20 @@ html, body {
 }
 
 /* Sfondo */
+
+.container-sfondo {
+  position: relative;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .sfondo {
   position: relative;
   background-image: url("immagini/stanza.jpg");
   height: 100%;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -9,6 +9,8 @@ html, body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 /* Titolo Neon */
@@ -41,6 +43,15 @@ html, body {
 }
 
 /* Sfondo */
+
+.container-sfondo {
+  position: relative;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .sfondo {
   position: relative;
   background-image: url("immagini/pioggia.png"), url("immagini/sfondo_2.png");
