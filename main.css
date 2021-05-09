@@ -206,15 +206,15 @@ html, body {
   position: absolute;
   transform: scale(6);
   color: #1a1a20;
-  left: 36rem;
   transition: transform 0.25s;
+  left: 33.5rem;
 }
 
 .fa-github:hover {
   position: absolute;
   transform: scale(8);
   color: #1a1a20;
-  left: 36rem;
+  left: 33.5rem;
 }
 
 .fa-instagram {
@@ -222,27 +222,44 @@ html, body {
   transform: scale(6);
   color: #910e79;
   transition: transform 0.25s;
+  left: 41rem;
 }
 
 .fa-instagram:hover {
   position: absolute;
   transform: scale(8);
-  color: #bd1fa0;
+  color: #db16b7;
+  left: 41rem;
 }
 
 .fa-telegram {
   position: absolute;
   transform: scale(6);
   color: #0194aa;
-  right: 35rem;
   transition: transform 0.25s;
+  right: 41rem;
 }
 
 .fa-telegram:hover {
   position: absolute;
   transform: scale(8);
-  color: #0fadc5;
-  right: 35rem;
+  color: #0bc2df;
+  right: 41rem;
+}
+
+.fa-youtube {
+  position: absolute;
+  transform: scale(6);
+  color: #700303;
+  transition: transform 0.25s;
+  right: 33rem;
+}
+
+.fa-youtube:hover {
+  position: absolute;
+  transform: scale(8);
+  color: #c50f0f;
+  right: 33rem;
 }
 
 /* Sfondo */
