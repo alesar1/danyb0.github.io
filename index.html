@@ -12,13 +12,43 @@
 </head>
 
 <body>
-    <div class="sfondo" alt="Tokyo con neon"></div>
+    <div class="sfondo"></div>
     <div class="titolo">DanyBO</div>
+    <span id="testo" class="desc"></span>
     <div class="container_icons">
         <a href="https://www.github.com/DanyB0"><i class="fa fa-github"></i></a>
         <a href="https://www.instagram.com/_danyb0"><i class="fa fa-instagram"></i></a>
         <a href="https://t.me/DanyB0"><i class="fa fa-telegram"></i></a>
     </div>
 </body>
+
+<script type="text/javascript">
+    // testo da mostrare    
+    var testo = "Did you read that isekai manga?<br> \
+      yeah dude but it was so freaking boring, the MC was just fucking around with his harem...<br> \
+      that's the good part.";
+    // output
+    var output = "";
+    // incrementatore
+    var i = 0;
+    // velocità di scrittura
+    var speed = 100;
+    // dichiaro la funzione
+    function scrivi() {
+        // creo l'output
+        output += testo.charAt(i);
+        // incremento
+        i++;
+        // scrittura
+        document.getElementById("testo").innerHTML = output;
+        // se è finito il testo
+        if(i >= testo.length) {
+            // fine
+            clearInterval(s);
+        }
+    }
+    // richiamo la funzione a intervalli
+    s = setInterval("scrivi()",speed);
+</script>
 
 </html>
