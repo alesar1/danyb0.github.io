@@ -16,7 +16,7 @@ html, body {
 /* Font */
 @font-face {
   font-family: neon;
-  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+  src: url("font/pdark-webfont.woff") format("woff");
 }
 
 /* Titolo Neon */
@@ -25,175 +25,28 @@ html, body {
   text-align: center;
   vertical-align: top;
   position: absolute;
-  top: 0rem;
+  top: 1rem;
   left: 0rem;
   width: 100%;
   font-family: neon;
   font-size: 9vw;
   line-height: 9vw;
-  animation: neon 1s ease infinite;
-  -webkit-animation: neon 1s ease infinite;
-  -moz-animation: neon 1s ease infinite;
-  -ms-animation: neon 1s ease infinite;
-  -o-animation: neon 1s ease infinite;
+  text-shadow: 0 0 .5vw #323637, 0 0 1.5vw #323637, 0 0 5vw #323637, 0 0 5vw #323637, 0 0 .2vw #323637, .5vw .5vw .1vw #7895AA;
+  color: #BA4D3E;
 }
 
 .desc {
   display: absolute;
-  text-align: left;
-  vertical-align: bottom;
+  text-align: center;
+  vertical-align: top;
   position: absolute;
-  bottom: 0.5rem;
+  top: 10rem;
   left: 0rem;
   width: 100%;
   font-size: 2vw;
   line-height: 2vw;
-  color: #595c61;
-  font-style: Italic;
-}
-
-/* Titolo Neon con hover */
-.titolo:hover {
-  animation: neon-hover 1s ease infinite;
-  -webkit-animation: neon-hover 1s ease infinite;
-  -moz-animation: neon-hover 1s ease infinite;
-  -ms-animation: neon-hover 1s ease infinite;
-  -o-animation: neon-hover 1s ease infinite;
-}
-
-/* Animazione titolo neon di base */
-@keyframes neon {
-  0%,
-  100% {
-    text-shadow: 0 0 1vw #05eeff, 0 0 3vw #05eeff, 0 0 10vw #05eeff, 0 0 10vw #05eeff, 0 0 .4vw #03c6e3, .5vw .5vw .1vw #03c6e3;
-    color: #f003c6;
-  }
-  50% {
-    text-shadow: 0 0 .5vw #03c6e3, 0 0 1.5vw #03c6e3, 0 0 5vw #03c6e3, 0 0 5vw #03c6e3, 0 0 .2vw #03c6e3, .5vw .5vw .1vw #05eeff;
-    color: #fd2ea3;
-  }
-}
-
-/* Animazione titolo neon con hover di base */
-@keyframes neon-hover {
-    25%,
-    50% {
-        text-shadow: 0 0 .5vw #f003c6, 0 0 1.5vw #f003c6, 0 0 5vw #f003c6, 0 0 5vw #f003c6, 0 0 .2vw #f003c6, .5vw .5vw .1vw #fd2ea3;
-        color: #03c6e3;
-      }
-    75%,
-    100% {
-      text-shadow: 0 0 1vw #fd2ea3, 0 0 3vw #fd2ea3, 0 0 10vw #fd2ea3, 0 0 10vw #fd2ea3, 0 0 .4vw #f003c6, .5vw .5vw .1vw #f003c6;
-      color: #05eeff;
-    }
-}
-
-/* Animazione titolo neon per firefox */
-@-moz-keyframes neon {
-    0%,
-    100% {
-      text-shadow: 0 0 1vw #05eeff, 0 0 3vw #05eeff, 0 0 10vw #05eeff, 0 0 10vw #05eeff, 0 0 .4vw #03c6e3, .5vw .5vw .1vw #03c6e3;
-      color: #f003c6;
-    }
-    50% {
-      text-shadow: 0 0 .5vw #03c6e3, 0 0 1.5vw #03c6e3, 0 0 5vw #03c6e3, 0 0 5vw #03c6e3, 0 0 .2vw #03c6e3, .5vw .5vw .1vw #05eeff;
-      color: #fd2ea3;
-    }
-}
-  
-  /* Animazione titolo neon con hover per Firefox */
-@-moz-keyframes neon-hover {
-      25%,
-      50% {
-          text-shadow: 0 0 .5vw #fd2ea3, 0 0 1.5vw #fd2ea3, 0 0 5vw #fd2ea3, 0 0 5vw #fd2ea3, 0 0 .2vw #fd2ea3, .5vw .5vw .1vw #f003c6;
-          color: #03c6e3;
-        }
-      75%,
-      100% {
-        text-shadow: 0 0 1vw #f003c6, 0 0 3vw #f003c6, 0 0 10vw #f003c6, 0 0 10vw #f003c6, 0 0 .4vw #fd2ea3, .5vw .5vw .1vw #fd2ea3;
-        color: #05eeff;
-    }
-}
-
-/* Animazione titolo neon per Safari, Chrome e Opera > 12.1 */
-@-webkit-keyframes neon {
-    0%,
-    100% {
-      text-shadow: 0 0 1vw #05eeff, 0 0 3vw #05eeff, 0 0 10vw #05eeff, 0 0 10vw #05eeff, 0 0 .4vw #03c6e3, .5vw .5vw .1vw #03c6e3;
-      color: #f003c6;
-    }
-    50% {
-      text-shadow: 0 0 .5vw #03c6e3, 0 0 1.5vw #03c6e3, 0 0 5vw #03c6e3, 0 0 5vw #03c6e3, 0 0 .2vw #03c6e3, .5vw .5vw .1vw #05eeff;
-      color: #fd2ea3;
-    }
-}
-  
-/* Animazione titolo neon con hover per Safari, Chrome e Opera > 12.1 */
-@-webkit-keyframes neon-hover {
-      25%,
-      50% {
-          text-shadow: 0 0 .5vw #fd2ea3, 0 0 1.5vw #fd2ea3, 0 0 5vw #fd2ea3, 0 0 5vw #fd2ea3, 0 0 .2vw #fd2ea3, .5vw .5vw .1vw #f003c6;
-          color: #03c6e3;
-        }
-      75%,
-      100% {
-        text-shadow: 0 0 1vw #f003c6, 0 0 3vw #f003c6, 0 0 10vw #f003c6, 0 0 10vw #f003c6, 0 0 .4vw #fd2ea3, .5vw .5vw .1vw #fd2ea3;
-        color: #05eeff;
-    }
-}
-
-/* Animazione titolo neon per Explorer */
-@-ms-keyframes neon {
-    0%,
-    100% {
-      text-shadow: 0 0 1vw #05eeff, 0 0 3vw #05eeff, 0 0 10vw #05eeff, 0 0 10vw #05eeff, 0 0 .4vw #03c6e3, .5vw .5vw .1vw #03c6e3;
-      color: #f003c6;
-    }
-    50% {
-      text-shadow: 0 0 .5vw #03c6e3, 0 0 1.5vw #03c6e3, 0 0 5vw #03c6e3, 0 0 5vw #03c6e3, 0 0 .2vw #03c6e3, .5vw .5vw .1vw #05eeff;
-      color: #fd2ea3;
-    }
-}
-  
-/* Animazione titolo neon con hover per Explorer */
-@-ms-keyframes neon-hover {
-      25%,
-      50% {
-          text-shadow: 0 0 .5vw #fd2ea3, 0 0 1.5vw #fd2ea3, 0 0 5vw #fd2ea3, 0 0 5vw #fd2ea3, 0 0 .2vw #fd2ea3, .5vw .5vw .1vw #f003c6;
-          color: #03c6e3;
-        }
-      75%,
-      100% {
-        text-shadow: 0 0 1vw #f003c6, 0 0 3vw #f003c6, 0 0 10vw #f003c6, 0 0 10vw #f003c6, 0 0 .4vw #fd2ea3, .5vw .5vw .1vw #fd2ea3;
-        color: #05eeff;
-    }
-}
-
-/* Animazione titolo neon con hover per Opera < 12.1 */
-@-o-keyframes neon {
-    0%,
-    100% {
-      text-shadow: 0 0 1vw #05eeff, 0 0 3vw #05eeff, 0 0 10vw #05eeff, 0 0 10vw #05eeff, 0 0 .4vw #03c6e3, .5vw .5vw .1vw #03c6e3;
-      color: #f003c6;
-    }
-    50% {
-      text-shadow: 0 0 .5vw #03c6e3, 0 0 1.5vw #03c6e3, 0 0 5vw #03c6e3, 0 0 5vw #03c6e3, 0 0 .2vw #03c6e3, .5vw .5vw .1vw #05eeff;
-      color: #fd2ea3;
-    }
-}
-  
-/* Animazione titolo neon con hover per Opera < 12.1 */
-@-o-keyframes neon-hover {
-      25%,
-      50% {
-          text-shadow: 0 0 .5vw #fd2ea3, 0 0 1.5vw #fd2ea3, 0 0 5vw #fd2ea3, 0 0 5vw #fd2ea3, 0 0 .2vw #fd2ea3, .5vw .5vw .1vw #f003c6;
-          color: #03c6e3;
-        }
-      75%,
-      100% {
-        text-shadow: 0 0 1vw #f003c6, 0 0 3vw #f003c6, 0 0 10vw #f003c6, 0 0 10vw #f003c6, 0 0 .4vw #fd2ea3, .5vw .5vw .1vw #fd2ea3;
-        color: #05eeff;
-    }
+  color: #4C7C44;
+  font-family: neon;
 }
 
 .container_icons {
