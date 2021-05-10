@@ -13,35 +13,6 @@ html, body {
   overflow-x: hidden;
 }
 
-/* Titolo Neon */
-.titolo {
-  display: absolute;
-  text-align: center;
-  vertical-align: top;
-  position: absolute;
-  top: 0rem;
-  left: 0rem;
-  width: 100%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 4vw;
-  line-height: 9vw;
-  animation: neon 1s ease infinite;
-  -webkit-animation: neon 1s ease infinite;
-  -moz-animation: neon 1s ease infinite;
-  -ms-animation: neon 1s ease infinite;
-  -o-animation: neon 1s ease infinite;
-  color: #06b4ac;
-}
-
-/* Titolo Neon con hover */
-.titolo:hover {
-  animation: neon-hover 1s ease infinite;
-  -webkit-animation: neon-hover 1s ease infinite;
-  -moz-animation: neon-hover 1s ease infinite;
-  -ms-animation: neon-hover 1s ease infinite;
-  -o-animation: neon-hover 1s ease infinite;
-}
-
 /* Sfondo */
 
 .container-sfondo {
@@ -53,8 +24,8 @@ html, body {
 }
 
 .sfondo {
-  position: relative;
-  background-image: url("immagini/pioggia.png"), url("immagini/sfondo_2.png");
+  position: absolute;
+  background-image: url("immagini/pioggia-no-blur.png"), url("immagini/angel_with_shotgun.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -62,9 +33,10 @@ html, body {
 }
 
 .yt {
-  vertical-align: top;
-  display: absolute;
   position: absolute;
-  top: 30%;
-  left: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  transition: ease-in(0.5)
 }
