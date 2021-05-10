@@ -49,72 +49,71 @@ html, body {
   font-family: neon;
 }
 
-.container_icons {
+.container-icons {
   display: absolute;
-  text-align: center;
+  text-align:center;
   position: absolute;
-  top: 20rem;
-  width: 100%;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  width: 50%;
 }
 
-.fa-github {
-  position: absolute;
+.container-icons a{
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+}
+
+/* Titolo Neon 
+[class^="fa-"], [class*=" fa-"] {
+  display: block;
+  width: 100%;
+}
+*/
+.container-icons .fa-github {
   transform: scale(6);
   color: #25201cd7;
   transition: transform 0.25s;
-  left: 33.5rem;
 }
 
-.fa-github:hover {
-  position: absolute;
-  transform: scale(8);
+.container-icons .fa-github:hover {
+  transform:scale(8);
   color: #2e2d2d;
-  left: 33.5rem;
 }
 
-.fa-instagram {
-  position: absolute;
+.container-icons .fa-instagram {
   transform: scale(6);
   color: #623f88;
   transition: transform 0.25s;
-  left: 41rem;
 }
 
-.fa-instagram:hover {
-  position: absolute;
+.container-icons .fa-instagram:hover {
   transform: scale(8);
   color: #a271d6;
-  left: 41rem;
 }
 
-.fa-telegram {
-  position: absolute;
+.container-icons .fa-telegram {
   transform: scale(6);
   color: #98C0E4;
   transition: transform 0.25s;
-  right: 41rem;
 }
 
-.fa-telegram:hover {
-  position: absolute;
+.container-icons .fa-telegram:hover {
   transform: scale(8);
   color: #7bc0fd;
-  right: 41rem;
 }
 
-.fa-youtube {
-  position: absolute;
+.container-icons .fa-youtube {
   transform: scale(6);
   color: #7E2524;
   transition: transform 0.25s;
-  right: 33rem;
 }
 
-.fa-youtube:hover {
-  position: absolute;
+.container-icons .fa-youtube:hover {
   transform: scale(8);
   color: #b31f1c;
-  right: 33rem;
 }
 
 /* Sfondo */
