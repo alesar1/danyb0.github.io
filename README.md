@@ -1,6 +1,8 @@
 # My website
 
-### It needs to be improved a lot (in the future)
+# To do:
+- [ ] Make the website responsive for mobile
+- [ ] generically improve it
 
 # Preview
 ## Main page
