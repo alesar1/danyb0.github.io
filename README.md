@@ -4,7 +4,7 @@
 
 # Preview
 ## Main page
-[![index.png](https://i.postimg.cc/x1PtdcKY/index.png)](https://postimg.cc/sMvp6f60)
+[![index.png](https://i.postimg.cc/nz7sHSWW/index.png)](https://postimg.cc/qhJBww4c)
 ## YouTube playlist page
 [![playlist-page.png](https://i.postimg.cc/fLXFHHQf/playlist-page.png)](https://postimg.cc/XGjQqkJr)
 
