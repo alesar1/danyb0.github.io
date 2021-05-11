@@ -13,41 +13,139 @@ html, body {
   overflow-x: hidden;
 }
 
-/* Sfondo */
+/* Desktops */
+@media (max-width: 1920px) {
 
-.container-sfondo {
-  position: relative;
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* Sfondo */
+
+  .container-sfondo {
+    position: relative;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container-sfondo .sfondo {
+    position: absolute;
+    background-image: url("immagini/pioggia-no-blur.png"), url("immagini/angel_with_shotgun.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img-nightcore-dx{
+    position: fixed;
+    bottom: 0%;
+    right: 3%;
+  }
+
+  .img-nightcore-sx{
+    position: fixed;
+    bottom: 0%;
+    left: 3%;
+  }
+
+  .yt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  }
 }
 
-.container-sfondo .sfondo {
-  position: absolute;
-  background-image: url("immagini/pioggia-no-blur.png"), url("immagini/angel_with_shotgun.png");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+/* Laptops */
+@media (max-width: 991px) {
+
+  /* Sfondo */
+
+  .container-sfondo {
+    position: relative;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container-sfondo .sfondo {
+    position: absolute;
+    background-image: url("immagini/pioggia-no-blur.png"), url("immagini/angel_with_shotgun.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img-nightcore-dx{
+    position: fixed;
+    bottom: 0%;
+    right: 3%;
+  }
+
+  .img-nightcore-sx{
+    position: fixed;
+    bottom: 0%;
+    left: 3%;
+  }
+
+  .yt {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    width: 80%;
+    height: 40%;
+  }
 }
 
-.img-nightcore-dx{
-  position: fixed;
-  bottom: 0%;
-  right: 3%;
-}
+/* Phones */
+@media (max-width: 501px) {
 
-.img-nightcore-sx{
-  position: fixed;
-  bottom: 0%;
-  left: 3%;
-}
+  /* Sfondo */
 
-.yt {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  .container-sfondo {
+    position: relative;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container-sfondo .sfondo {
+    position: absolute;
+    background-image: url("immagini/pioggia-no-blur.png"), url("immagini/angel_with_shotgun.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img-nightcore-dx{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    width: 40%;
+    height: 40%;
+  }
+
+  .img-nightcore-sx{
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 40%;
+    height: 40%;
+  }
+
+  .yt {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    width: 90%;
+    height: 25%;
+  }
 }
