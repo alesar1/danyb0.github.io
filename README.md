@@ -1,8 +1,9 @@
 # My website
 
 # To do:
-- [ ] Make the website responsive for mobile
-- [ ] generically improve it
+- [ ] Make the website responsive for mobile (For some resolutions is already responsive)
+- [ ] Fix the background (it shouldn't move when you scroll the page)
+- [ ] Generically improve the website (speed, animations, loadings...)
 
 # Preview
 ## Main page
