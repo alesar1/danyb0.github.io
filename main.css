@@ -521,7 +521,7 @@ html, body {
 
 /* Xiaomi redmi note 7 */
 
-@media (max-width: 394px) {
+@media (max-width: 361px) {
   /* Titolo */
   .titolo {
     display: absolute;
@@ -529,7 +529,7 @@ html, body {
     vertical-align: top;
     position:absolute;
     top: 4%;
-    left: -4%;
+    left: 0%;
     width: 100%;
     min-height: 9vw;
     font-family: future-font;
@@ -546,7 +546,7 @@ html, body {
     vertical-align: top;
     position:fixed;
     float: top;
-    left: -4%;
+    left: 0%;
     top: 15%;
     width: 100%;
     font-size: 6vw;
