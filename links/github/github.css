@@ -19,6 +19,29 @@ html, body {
   src: url("font/hacked-kerx-webfont.woff") format("woff");
 }
 
+/* Sfondo */
+.container-sfondo {
+  position: relative;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sfondo {
+  position: relative;
+  background-image: url("immagini/bg.png");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  -moz-filter: blur(8px);
+  -ms-filter: blur(8px);
+  -o-filter: blur(8px);
+}
+
 .titolo {
   display: absolute;
   text-align: center;
@@ -52,15 +75,6 @@ html, body {
   border-radius: 5px;
 }
 
-.project-1 .meet-img:hover {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
 .project-2 {
   color: rgb(27, 25, 25);
   position: absolute;
@@ -80,11 +94,112 @@ html, body {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-/* Desktops */
-@media (max-width: 1920px) {
+/* iPhones */
 
+@media (max-width: 376px) {
+  /* Titolo */
+  .titolo {
+    display: absolute;
+    text-align: center;
+    vertical-align: top;
+    position:absolute;
+    top: 1%;
+    left: 0%;
+    width: 100%;
+    min-height: 9vw;
+    font-family: hacker;
+    font-size: 14vw;
+    line-height: 9vw;
+    color: #72709B;
+  }
+
+  /* iPhone X */
+  @media (max-height: 813px) {
+
+    .project-1 {
+      color: rgb(27, 25, 25);
+      position: absolute;
+      font-family: hacker;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    .project-1 .meet-img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 5px;
+    }
+
+    .project-2 {
+      color: rgb(27, 25, 25);
+      position: absolute;
+      font-family: hacker;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    .project-2 .discord-img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 5px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+  }
+
+  /* iPhone 6/7/8 */
+  @media (max-height: 668px) {
+
+    .project-1 {
+      color: rgb(27, 25, 25);
+      position: absolute;
+      font-family: hacker;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    .project-1 .meet-img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 5px;
+    }
+
+    .project-2 {
+      color: rgb(27, 25, 25);
+      position: absolute;
+      font-family: hacker;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    .project-2 .discord-img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 5px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+  }
+}
+
+/* iPhone 6/7/8 Plus */
+@media (max-width: 415px) {
+    
   /* Sfondo */
-
   .container-sfondo {
     position: relative;
     height: 100%;
@@ -93,57 +208,67 @@ html, body {
     background-size: cover;
   }
 
-  .container-sfondo .sfondo {
+  .project-1 {
+    color: rgb(27, 25, 25);
     position: absolute;
-    background-image: url("immagini/bg.png");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-family: hacker;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .project-1 .meet-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+  }
+
+  .project-2 {
+    color: rgb(27, 25, 25);
+    position: absolute;
+    font-family: hacker;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .project-2 .discord-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
 
 }
 
-/* Laptops */
-@media (max-width: 991px) {
+/* Xiaomi redmi note 7 */
 
+@media (max-width: 361px) {
+  /* Titolo */
+  .titolo {
+    display: absolute;
+    text-align: center;
+    vertical-align: top;
+    position:absolute;
+    top: 4%;
+    left: 0%;
+    width: 100%;
+    min-height: 9vw;
+    font-family: hacker;
+    font-size: 9vw;
+    line-height: 9vw;
+    color: #72709B;
+  }
+    
   /* Sfondo */
-
   .container-sfondo {
     position: relative;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .container-sfondo .sfondo {
-    position: absolute;
-    background-image: url("immagini/bg.png");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
-
-/* Phones */
-@media (max-width: 501px) {
-
-  /* Sfondo */
-
-  .container-sfondo {
-    position: relative;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .container-sfondo .sfondo {
-    position: absolute;
-    background-image: url("immagini/bg.png");
-    opacity: 0.2;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
