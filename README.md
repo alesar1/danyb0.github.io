@@ -8,6 +8,8 @@
 # Preview
 ## Main page
 [![index.png](https://i.postimg.cc/nz7sHSWW/index.png)](https://postimg.cc/qhJBww4c)
+## GitHub repos page
+[![github-repos.png](https://i.postimg.cc/x89jfTzJ/github-repos.png)](https://postimg.cc/wybYFzFg)
 ## YouTube playlist page
 [![playlist-page.png](https://i.postimg.cc/fLXFHHQf/playlist-page.png)](https://postimg.cc/XGjQqkJr)
 
