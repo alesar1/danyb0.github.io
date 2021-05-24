@@ -64,7 +64,6 @@ html, body {
   top: 50%;
   left: 35%;
   transform: translate(-50%, -50%);
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .project-1 .meet-img {
@@ -73,6 +72,20 @@ html, body {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 5px;
+  -webkit-box-shadow: 1px 28px 25px -12px rgba(16, 15, 16, 0.479);
+	-moz-box-shadow: 1px 28px 25px -12px rgba(16, 15, 16, 0.479);
+	box-shadow: 1px 28px 25px -12px rgba(16, 15, 16, 0.479);
+}
+
+.project-1 .meet-img:hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(1.5deg);
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 28px 25px -12px rgba(16, 15, 16, 0.479);
+	-moz-box-shadow: 1px 28px 25px -12px rgba(16, 15, 16, 0.479);
+	box-shadow: 1px 28px 25px -12px rgba(16, 15, 16, 0.479);
 }
 
 .project-2 {
@@ -82,7 +95,6 @@ html, body {
   top: 50%;
   right: 35%;
   transform: translate(-50%, -50%);
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .project-2 .discord-img {
@@ -91,7 +103,20 @@ html, body {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  -webkit-box-shadow: 1px 28px 25px -12px rgba(16, 15, 16, 0.479);
+	-moz-box-shadow: 1px 28px 25px -12px rgba(16, 15, 16, 0.479);
+	box-shadow: 1px 28px 25px -12px rgba(16, 15, 16, 0.479);
+}
+
+.project-2 .discord-img:hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-1.5deg);
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 28px 25px -12px rgba(16, 15, 16, 0.479);
+	-moz-box-shadow: 1px 28px 25px -12px rgba(16, 15, 16, 0.479);
+	box-shadow: 1px 28px 25px -12px rgba(16, 15, 16, 0.479);
 }
 
 /* Laptops */
@@ -119,7 +144,6 @@ html, body {
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
   
   .project-1 .meet-img {
@@ -128,6 +152,9 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 5px;
+    -webkit-box-shadow: 1px 28px 25px -12px rgba(16, 15, 16, 0.479);
+    -moz-box-shadow: 1px 28px 25px -12px rgba(16, 15, 16, 0.479);
+    box-shadow: 1px 28px 25px -12px rgba(16, 15, 16, 0.479);
   }
   
   .project-2 {
@@ -137,7 +164,6 @@ html, body {
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
   
   .project-2 .discord-img {
@@ -146,7 +172,9 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    -webkit-box-shadow: 1px 28px 25px -12px rgba(16, 15, 16, 0.479);
+    -moz-box-shadow: 1px 28px 25px -12px rgba(16, 15, 16, 0.479);
+    box-shadow: 1px 28px 25px -12px rgba(16, 15, 16, 0.479);
   }
 }
 
@@ -179,7 +207,6 @@ html, body {
       top: 20%;
       left: 50%;
       transform: translate(-50%, -50%);
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
 
     .project-1 .meet-img {
@@ -197,7 +224,6 @@ html, body {
       top: 35%;
       left: 50%;
       transform: translate(-50%, -50%);
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
 
     .project-2 .discord-img {
@@ -206,7 +232,6 @@ html, body {
       left: 50%;
       transform: translate(-50%, -50%);
       border-radius: 5px;
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
   }
 
@@ -220,7 +245,6 @@ html, body {
       top: 40%;
       left: 50%;
       transform: translate(-50%, -50%);
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
 
     .project-1 .meet-img {
@@ -238,7 +262,6 @@ html, body {
       top: 60%;
       left: 50%;
       transform: translate(-50%, -50%);
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
 
     .project-2 .discord-img {
@@ -247,7 +270,6 @@ html, body {
       left: 50%;
       transform: translate(-50%, -50%);
       border-radius: 5px;
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
   }
 }
@@ -271,7 +293,6 @@ html, body {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
 
   .project-1 .meet-img {
@@ -289,7 +310,6 @@ html, body {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
 
   .project-2 .discord-img {
@@ -298,7 +318,6 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
 
 }
